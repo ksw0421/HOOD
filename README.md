@@ -4,6 +4,6 @@
 <br>
 후드티 전문 홈페이지 입니다.
 
-[홈페이지](https://ksw0421.github.io/report06)
+[홈페이지 바로가기](https://ksw0421.github.io/report06)
 
 
