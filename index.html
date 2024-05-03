@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <title>HOOD</title>
+</head>
+<body>
+    <section class="intro">
+        <img src="./img/intro.jpg" alt="프로필">
+    </section>
+    <section id="wrap">       
+        <header>
+            <div class="top">
+                <div class="h_center">
+                <p><a href="#">SALE!할인 코드 입력 시,전체 상품 25%할인 혜택!</a></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <h1><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+                <nav>
+                        <a href="#">신제품</a>
+                        <a href="#">여성 의류</a>
+                        <a href="#">남성 의류</a>       
+                </nav>
+                <div class="b_right">
+                    <a href="#" title="로그인"><img src="./img/login.png" alt="로그인"></a>
+                    <a href="#" title="장바구니"><img src="./img/shop.png" alt="장바구니"></a>
+                    <form action="#" method="post" class="search">
+                        <fieldset>
+                            <input type="search" id="searchtxt" placeholder="검색">
+                            <button type="submit" id="searchbtn"><img src="./img/serch.png" alt="검색"></button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </header>
+    <main>
+        <section class="sec01" id="home-img">
+            <div class="container">
+                <h2>HOOD</h2>
+                <ul class="home-items">
+                    <li class="home-img01" title="이미지01"><a href="./index.html"><img src="./img/hood-img01.jpg" alt="home01">
+                    <span class="home-tit01">여성 제품</span>
+                    </a></li>
+                    <li class="home-img02" title="이미지02"><a href="./index.html"><img src="./img/hood-img02.jpg" alt="home02">
+                    <span class="home-tit02">신제품</span>
+                    </a></li>
+                    <li class="home-img03" title="이미지03"><a href="./index.html"><img src="./img/hood-img03.jpg" alt="home03">
+                    <span class="home-tit03">남성 제품</span>
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec02" id="hood_box">
+            <h2>NEW 제품</h2>
+            <div class="swiper" id="hood_item" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <a href="#">
+                            <img src="./img/hood-gire-img01.jpg" alt="">
+                            <span>후드</span>
+                            <span>45,000 원</span>
+                            <strong class="gire">여성</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <a href="#">
+                            <img src="./img/hood-all-img01.jpg" alt="">
+                            <span>후드</span>
+                            <span>35,000 원</span>
+                            <strong class="unisex">공용</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <a href="#">
+                            <img src="./img/hood-gir-img02.jpg" alt="">
+                            <span>후드</span>
+                            <span>40,000 원</span>
+                            <strong class="gire">여성</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide4">
+                        <a href="#">
+                            <img src="./img/hood-man-img01.jpg" alt="">
+                            <span>후드</span>
+                            <span>50,000 원</span>
+                            <strong class="man">남성</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide5">
+                        <a href="#">
+                            <img src="./img/hood-man-img02.jpg" alt="">
+                            <span>후드</span>
+                            <span>50,000 원</span>
+                            <strong class="man">남성</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide6">
+                        <a href="#">
+                            <img src="./img/hood-man-img03.jpg" alt="">
+                            <span>후드</span>
+                            <span>35,000 원</span>
+                            <strong class="man">남성</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide7">
+                        <a href="#">
+                            <img src="./img/hood-all-img02.jpg" alt="">
+                            <span>후드</span>
+                            <span>65,000 원</span>
+                            <strong class="unisex">공용</strong>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slide8">
+                        <a href="#">
+                            <img src="./img/hood-all-img03.jpg" alt="">
+                            <span>후드</span>
+                            <span>40,000 원</span>
+                            <strong class="unisex">공용</strong>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+        </section>
+        <section class="sec03" id="event">
+            <h2>EVENT</h2>
+            <div class="event-items">
+                <div class="event-box1">
+                    <a href="#"><img src="./img/warming-up.jpg" alt="운동"></a>
+                    <div class="event_box_txt">
+                        <h3>운동할때 입기 좋은 후드</h3>
+                        <p>가볍고 운동할때 입기 편하게,<br>
+                        새로운 영감으로 매일을 새롭게, 상상만 했던 경험을 현실로.<br>
+                        여러분의 매일을 후드와 함께해보세요.</p>
+                        <p><a href="#">자세히 보기</a></p>
+                    </div>
+                </div>
+                <div class="event_box2">
+                    <a href="#"><img src="./img/hood-1+1-img.jpg" alt="운동"></a>
+                    <div class="event_box_txt">
+                        <h3>하나 구매하면 하나 더 !</h3>
+                        <p>이쁜 디자인,편한 복장<br>
+                        지금 구매하시면 후드티가 하나 더 !</p>
+                        <p><a href="#">자세히 보기</a></p>
+                    </div>
+                </div>
+                <div class="event_box3">
+                    <a href="#"><img src="./img/event-img.jpg" alt="운동"></a>
+                    <div class="event_box_txt">
+                        <h3>꿀조합 이벤트</h3>
+                        <p>지금 입어야 제맛이다 !</p>
+                        <p><a href="#">자세히 보기</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <address class="footer-item footer-item01">
+            <h3>HOOD</h3>
+            <p>주소:인천 서구 당하동</p>
+             <br>
+            <p>고객센터 <br>
+                전화문의 : 000-000-0000
+            </p>
+            <br>
+            <p>FAX:00-0000-0000</p>
+            <br>
+            <p>E-mail:kswksh0421@naver.com</p>
+            
+        </address>
+        <div class="footer-item footer-item02">
+            <ul>
+                <li><a href="#">새로운 소식</a></li>
+                <li><a href="#">멤버가입</a></li>
+                <li><a href="#">매장안내</a></li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item03">
+            <h3><a href="#">도움말</a></h3>
+            <ul>
+                <li><a href="#">로그인 안내</a></li>
+                <li><a href="#">주문배송조회</a></li>
+                <li><a href="#">반품 정책</a></li>
+                <li><a href="#">결제 방법</a></li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item04">
+            <h3><a href="#">고객센터</a></h3>
+            <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">문의하기</a></li>
+                <li><a href="#">F&Q</a></li>
+            </ul>
+        </div>
+        <div class="footer-item footer-item05">
+            <a href="#"><img src="./img/sns_twitter.png" alt=""></a>
+            <a href="#"><img src="./img/sns_facebook.png" alt=""></a>
+            <a href="#"><img src="./img/sns_insta.png" alt=""></a>
+        </div>
+    </footer>
+</section>
+<script>
+    const swiper = new Swiper('.swiper', {    
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }, 
+        loop: true,
+    });
+</script>
+</body>
+
+</html>

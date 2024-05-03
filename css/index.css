@@ -1,0 +1,198 @@
+@charset 'utf-8';
+@font-face {
+    font-family:'noto sans korean';
+    src: url(../fonts/NotoSansKR.ttf);
+     }
+.intro{
+     position:fixed;
+     left:0;
+    right:0;
+     top:0;
+     bottom:0;
+     display:flex;
+    justify-content:center;
+     align-items:center;
+     animation: hood 1s  reverse forwards;
+    }
+    .intro img{
+        width: 350px;
+    }
+.sec01 a{
+    display: flex;
+    text-decoration-line: none;
+    color: var(--main01-color);
+}
+.sec01 .home-items{
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-around;
+} 
+.sec01 .container h2{
+    padding-left: 18em;
+    font-size: 3em;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.sec01 .home-items li{
+    overflow:hidden;
+}
+.sec01 .home-items li img{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 450px;
+    vertical-align: middle;
+    filter:grayscale(1);
+    transition:0.3s;
+}
+.sec01 .home-items li:hover img,
+.sec01 .home-items li:hover span{
+    filter:grayscale(0);
+    transform:scale(1.1);
+    opacity: 1;
+}
+.home-img01{
+    position: relative;
+}
+.home-img01 span{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    opacity: 0;
+    
+}
+.home-img02{
+    position: relative;
+}
+.home-img02 span{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 35.5%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    opacity: 0;
+    
+}
+.home-img03{
+    position: relative;
+}
+.home-img03 span{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: cyan;
+    opacity: 0;
+}
+
+.sec02{
+    padding-top: 10em;
+}
+.sec02  h2{
+    padding: 10px;
+    border-top: 2px solid var(--main01-color);
+    border-bottom: 2px solid var(--main01-color);
+    padding-left: 18em;
+    font-size: 3em;
+    padding-right: 20px;
+}
+.sec02 .swiper-slide{
+    display: flex; align-items: center;
+    text-align: center;
+    margin: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.sec02 img{
+    padding-top: 80px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+.sec02 .swiper-slide a{
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration-line: none;
+    color: var(--main01-color);
+}
+.sec02 .swiper-slide a img:hover{
+    filter: brightness(110%) saturate(150%);
+}
+.sec02 .swiper-slide a span{
+    font-size: 20px;
+}
+.sec02 .swiper-slide a strong{
+    color: var(--main02-color);
+    width: 45px;
+    text-align: center;
+}
+.sec02 .swiper-slide a .man{
+    background: black;
+}
+.sec02 .swiper-slide a .unisex{
+    background: var(--suv-color);
+}
+.sec02 .swiper-slide a .gire{
+    background: pink;
+}
+.sec03{
+    padding-top: 10em;
+    padding-left: 20px;
+}
+.sec03  h2{
+    padding: 10px;
+    border-top: 2px solid var(--main01-color);
+    border-bottom: 2px solid var(--main01-color);
+    padding-left: 18em;
+    font-size: 3em;
+    padding-right: 20px;
+}
+.sec03 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+.sec03 .event-items{
+    padding-top: 10em;
+    padding-bottom: 5em;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between
+}
+.sec03 h3{
+    font-size: 1.777em;
+    padding: 15px 0;
+    font-weight: 600;
+}
+.sec03 p{
+    font-weight: 500;
+    padding: 20px;
+    line-height: 30px;
+}
+.sec03 p a{
+    border-radius: 40px;
+     background: var(--main01-color);
+      color: var(--main02-color);
+    padding: 5px 10px
+}
+.sec03 p a:last-child:hover{
+    background: #aaa;
+    color: black;
+    transform: skewX(30deg);
+    transition:all 0.5s linear;
+}
+.sec03 p a:last-child{
+    padding-top: 4px;
+    text-decoration: none;
+}
