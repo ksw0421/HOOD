@@ -94,12 +94,15 @@
 
 .sec02{
     padding-top: 10em;
+    margin: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .sec02  h2{
     padding: 10px;
     border-top: 2px solid var(--main01-color);
     border-bottom: 2px solid var(--main01-color);
-    padding-left: 18em;
+    padding-left: 15em;
     font-size: 3em;
     padding-right: 20px;
 }
@@ -146,13 +149,14 @@
 }
 .sec03{
     padding-top: 10em;
-    padding-left: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .sec03  h2{
     padding: 10px;
     border-top: 2px solid var(--main01-color);
     border-bottom: 2px solid var(--main01-color);
-    padding-left: 18em;
+    padding-left: 15.5em;
     font-size: 3em;
     padding-right: 20px;
 }
